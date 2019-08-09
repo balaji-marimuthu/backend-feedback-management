@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+
+        body {
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #333;
+            background-color: #fff;
+        }
+
+        .btn-default {
+            color: #fff;
+            background-color: #0033A0;
+        }
+
+        .btn-default {
+            color: #333;
+            background-color: #fff;
+            border-color: #ccc;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+
+        .container {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                width: 750px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .container {
+                width: 970px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .container {
+                width: 1170px;
+            }
+        }
+    </style>
+    <style>
+
+        p {
+            font-family: "Segoe UI",sans-serif;
+            color: #29383E;
+            padding: 10px 15px;
+        }
+
+        .text-center {
+            /*margin-top: 5px;*/
+            text-align: center;
+        }
+
+        .container {
+            border: 1px solid #efefef;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .btn-default {
+            color: #fff;
+            background-color: #0033A0;
+        }
+
+        .sign {
+            font-family: "Segoe UI",sans-serif;
+            color: #29383E;
+            display: block;
+            padding-left: 15px;
+        }
+
+        .header-block {
+            color: white;
+            padding: 5px;
+            background-color: #0033A0;
+        }
+
+        .sub-top {
+            background-color: #DEF2F6;
+            padding: 5px;
+        }
+
+        .sub-bottom {
+            background: #F7F7F7;
+            padding: 5px;
+        }
+
+            .sub-bottom h5 {
+                font-size: 9.0pt;
+                font-family: "Segoe UI",sans-serif;
+                color: #3E4C51;
+            }
+
+        .content {
+            padding: 10px;
+        }
+
+        .footer-block {
+            color: white;
+            background-color: #00b140;
+            padding: 5px;
+        }
+    </style>
+</head>
+<!------ Include the above in your HEAD tag ---------->
+<body>
+    <div class="container shadow-box">
+        <div class="header-block">
+            <h1 class="text-center"></h1>
+        </div>
+        <div class="sub-top" style="padding-right:5px">
+            <h4>Dear <span>Volunteers</span></h4>
+        </div>
+        <div class="content">
+            <p>Thank you for volunteering for Community - Be a Special Volunteer on {{:EventDate}}.</p>
+            <p>Volunteers spent their weekend with Hope Trust kids to make them happy by conducting various activities.</p>
+            <p>Please share your feedback on this event to inspire others and improve the Outreach! <a class="btn btn-default" target="_blank" href="{{:feedbackUrl}}" role="button" style="text-decoration: none;">Click here to share your Story</a> </p>
+            <p>
+
+                <b>Note:</b> Visit the volunteer profile in the <a href="" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" style="color:#0563C1;text-decoration:none;">Outreach</a>
+                app to know your volunteering details and set notification preferences. Volunteering efforts will appear in the profile page only after it is submitted by Event PoC.
+            </p>
+            <span class="sign">Our Best Wishes,</span>
+            <span class="sign"><b>Outreach Team</b></span>
+        </div>
+        <div class="sub-bottom">
+            <h5>This is an auto generated mail, kindly do not reply!</h5>
+        </div>
+        <div class="footer-block">
+            <h2 class="text-center">Be </h2>
+        </div>
+    </div>
+</body>
+</html>
